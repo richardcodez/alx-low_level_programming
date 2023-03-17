@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * program for printing possible combination of single-digit numbers in ascending order separated by comma
+ * printing single-digit numbers in ascending order separated by comma
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -13,9 +13,11 @@ int main(void)
 	{
 		putchar(x);
 		if (x < '9')
+		{
 			putchar(',');
+			putchar(' ');
+		}
 	}
-	putchar('$');
 	putchar('\n');
 	return (0);
 }

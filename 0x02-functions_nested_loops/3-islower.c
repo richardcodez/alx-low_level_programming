@@ -2,8 +2,8 @@
 
 /**
  * _islower - entry point
- * function that checks if letter is in lowercase
- * Return: Always 0
+ * @c: the parameter for inputing letter to test
+ * Return: 1 if lowercase or 0 if not
  */
 
 int _islower(int c)

@@ -9,9 +9,8 @@ int main(void)
 {
 	int r;
 
-	_putchar(r + '0');
 	r = print_sign(98);
-	r = print_sign(98);
+	_putchar(',');
 	_putchar(' ');
 	_putchar(r + '0');
 	_putchar('\n');
@@ -24,12 +23,12 @@ int main(void)
 	_putchar(',');
 	_putchar(' ');
 	_putchar(r + '0');
-	putchar('\n');
+	_putchar('\n');
 	r = print_sign(-1);
 	_putchar(',');
 	_putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
+	_putchar(r + '0');
+	_putchar('\n');
 
 	return (0);
 }

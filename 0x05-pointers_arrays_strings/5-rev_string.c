@@ -8,20 +8,18 @@
 
 void rev_string(char *s)
 {
-	int x = 0, end;
-	char *p;
+	char reversed = s[0];
+	int count = 0, i, j;
 
-	while (*s != '\0')
+	while (s[count] != '\0')
 	{
-		x++;
-		s++;
+		count++;
 	}
-	s--;
-	
-	for (x; x > 0; x--)
+	for (i = 0; i < count; i++)
 	{
-		*p = *s;
-		s--;
+		count--;
+		reversed = s[i];
+		s[i] = s[count];
+		s[count] = reversed;
 	}
-	s = p;
 }

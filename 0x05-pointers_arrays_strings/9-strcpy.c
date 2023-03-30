@@ -6,7 +6,7 @@
  * src to buffer pointed by dest
  * @dest: input of destination address
  * @src: inpu of source address
- * Returns: the pointer to dest
+ * Return: the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
@@ -22,4 +22,6 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 
 	_putchar('\n');
+
+	return (dest);
 }

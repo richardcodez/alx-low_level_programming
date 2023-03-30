@@ -9,7 +9,7 @@
 void rev_string(char *s)
 {
 	char reversed = s[0];
-	int count = 0, i, j;
+	int count = 0, i;
 
 	while (s[count] != '\0')
 	{

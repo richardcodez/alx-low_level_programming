@@ -9,7 +9,6 @@
 
 void _puts_recursion(char *s)
 {
-	//prototype
 	if (*s != '\0')
 	{
 		/* priting character */
